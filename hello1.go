@@ -20,3 +20,7 @@ func RandomHello() string {
 	}
 	return greeting[rand.Intn(len(greeting))]
 }
+
+func PersonalFunc() int {
+	return rand.Intn(100)
+}
